@@ -1,0 +1,4 @@
+sudo mkdir -p /var/lib/jenkins/workspace/node-pull-repo
+sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace/node-pull-repo
+cd "/var/lib/jenkins/workspace/node-pull-repo"
+pm2 start app.js --name node-app || pm2 restart node-app

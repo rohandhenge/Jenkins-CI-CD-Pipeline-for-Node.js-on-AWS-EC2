@@ -1,0 +1,2 @@
+cd /var/lib/jenkins/workspace/02-node-pull
+sudo npm install
